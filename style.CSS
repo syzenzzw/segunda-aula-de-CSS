@@ -5,10 +5,10 @@
 
 #menu {
 	text-align: center;
-	background-color:#708090;
+	background-color:#F2391D;
 	width: 100%;
-	height: 10%;
-	position: absolute ;
+	height: 15%;
+	position: absolute;
 }
 
 
@@ -26,23 +26,33 @@ a:hover {
 	background-color:#DCDCDC;
 }
 
-#corpo {
-	position: relative;
-	width: 100%;
-	height: 90%;
-}
 
 #rodape {
   width:100%;
-  height:5%;
+  height:30%;
   bottom: 0;
   position: absolute;
-  background-color: #708090;
+  background-color: #F2391D;
+
+
+  
 
 
 }
 
+BODY {
+	background-color: #F5DFCA;
+}
 
-
-
+.textorodape {
+    font-family: 'Roboto';
+    src: url('Roboto-ThinItalic-webfont.eot');
+    src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg'); under the Apache Software License. 
+    font-weight: 200;
+    font-style: italic;
+    font-size: 12px;
+}
 
