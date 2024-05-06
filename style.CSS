@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+  box-sizing: border-box;
 }
 
 #menu {
@@ -40,9 +41,19 @@ a:hover {
 
 }
 
-BODY {
+body {
 	background-color: #F5DFCA;
+
 }
+
+.carrosel {
+  box-shadow: 2px 2px 4px black;
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
+}
+
+
 
 .textorodape {
     font-family: 'Roboto';
@@ -56,4 +67,10 @@ BODY {
     font-size: 12px;
 
 }
+
+
+
+
+
+
 
