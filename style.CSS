@@ -65,6 +65,7 @@ body {
     height: 300px;
     overflow: hidden;
     top: 43%;
+    margin-bottom: 100px;
   
 
 }
@@ -125,7 +126,7 @@ transition: 1s;
 }
 
 #radio2:checked ~ .first {
-    margin-left: -25%;
+    margin-left: -20%;
 }
 
 #radio3:checked ~ .first {
